@@ -1,11 +1,20 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
-function App() {
+const App = () => {
   return (
     <>
-     <h1>Welcome to my apple shop</h1>
+      <Header />
+      <main>
+        <Container>
+            welcome
+        </Container>
+        </main>
+        <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
